@@ -1,0 +1,123 @@
+2017/09/01 04:12:14 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gii". in C:\xampp\htdocs\dm\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dm\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\dm\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dm\web\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/dm/web/index.php/gii
+---
+2017/09/01 05:14:52 [error] [php] include(Controller.php): failed to open stream: No such file or directory (C:\xampp\htdocs\dm\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\dm\web\protected\controllers\MonstroController.php(3): spl_autoload_call()
+#1 C:\xampp\htdocs\dm\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\dm\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\dm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\dm\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\dm\web\index.php(11): CWebApplication->run()
+REQUEST_URI=/dm/web/index.php/monstro
+2017/09/01 05:15:11 [error] [php] include(Controller.php): failed to open stream: No such file or directory (C:\xampp\htdocs\dm\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\dm\web\protected\controllers\MonstroController.php(3): spl_autoload_call()
+#1 C:\xampp\htdocs\dm\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\dm\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\dm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\dm\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\dm\web\index.php(11): CWebApplication->run()
+REQUEST_URI=/dm/web/index.php/monstro/index
+2017/09/01 05:15:27 [error] [php] include(Controller.php): failed to open stream: No such file or directory (C:\xampp\htdocs\dm\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\dm\web\protected\controllers\MonstroController.php(3): spl_autoload_call()
+#1 C:\xampp\htdocs\dm\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\dm\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\dm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\dm\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\dm\web\index.php(11): CWebApplication->run()
+REQUEST_URI=/dm/web/index.php/monstro/index
+2017/09/01 05:15:49 [error] [php] include(TagCloud.php): failed to open stream: No such file or directory (C:\xampp\htdocs\dm\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\dm\framework\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\dm\framework\web\CWidgetFactory.php(146): import()
+#3 C:\xampp\htdocs\dm\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#4 C:\xampp\htdocs\dm\framework\web\CBaseController.php(181): MonstroController->createWidget()
+#5 C:\xampp\htdocs\dm\web\protected\views\layouts\column2.php(13): MonstroController->widget()
+#6 C:\xampp\htdocs\dm\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\dm\framework\web\CBaseController.php(95): MonstroController->renderInternal()
+#8 C:\xampp\htdocs\dm\framework\web\CController.php(787): MonstroController->renderFile()
+#9 C:\xampp\htdocs\dm\web\protected\controllers\MonstroController.php(118): MonstroController->render()
+#10 C:\xampp\htdocs\dm\framework\web\actions\CInlineAction.php(49): MonstroController->actionIndex()
+#11 C:\xampp\htdocs\dm\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\dm\framework\web\filters\CFilterChain.php(134): MonstroController->runAction()
+#13 C:\xampp\htdocs\dm\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\dm\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#15 C:\xampp\htdocs\dm\framework\web\filters\CInlineFilter.php(58): MonstroController->filterAccessControl()
+#16 C:\xampp\htdocs\dm\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#17 C:\xampp\htdocs\dm\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\dm\framework\web\CController.php(265): MonstroController->runActionWithFilters()
+#19 C:\xampp\htdocs\dm\framework\web\CWebApplication.php(282): MonstroController->run()
+#20 C:\xampp\htdocs\dm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\htdocs\dm\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\dm\web\index.php(11): CWebApplication->run()
+REQUEST_URI=/dm/web/index.php/monstro/index
+2017/09/01 05:16:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "post". in C:\xampp\htdocs\dm\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dm\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 C:\xampp\htdocs\dm\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dm\web\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/dm/web/index.php
+HTTP_REFERER=http://localhost/dm/web/index.php/monstro/index
+---
+2017/09/01 05:16:37 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "post/index". in C:\xampp\htdocs\dm\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dm\framework\web\CWebApplication.php(141): CWebApplication->runController('post/index')
+#1 C:\xampp\htdocs\dm\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dm\web\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/dm/web/index.php/post/index
+HTTP_REFERER=http://localhost/dm/web/index.php
+---
+2017/09/01 05:16:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "post". in C:\xampp\htdocs\dm\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dm\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 C:\xampp\htdocs\dm\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dm\web\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/dm/web/index.php
+HTTP_REFERER=http://localhost/dm/web/index.php/post/index
+---
+2017/09/01 05:17:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "monstor". in C:\xampp\htdocs\dm\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dm\framework\web\CWebApplication.php(141): CWebApplication->runController('monstor')
+#1 C:\xampp\htdocs\dm\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dm\web\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/dm/web/index.php/monstor
+---
+2017/09/01 05:17:21 [error] [exception.CException] CException: Alias "zii.widgets.CGridView" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\xampp\htdocs\dm\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\dm\framework\web\CWidgetFactory.php(146): YiiBase::import('zii.widgets.CGr...', true)
+#1 C:\xampp\htdocs\dm\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(MonstroController), 'zii.widgets.CGr...', Array)
+#2 C:\xampp\htdocs\dm\framework\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CGr...', Array)
+#3 C:\xampp\htdocs\dm\web\protected\views\monstro\index.php(19): CBaseController->widget('zii.widgets.CGr...', Array)
+#4 C:\xampp\htdocs\dm\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dm\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\dm\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\dm\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#8 C:\xampp\htdocs\dm\web\protected\controllers\MonstroController.php(118): CController->render('index', Array)
+#9 C:\xampp\htdocs\dm\framework\web\actions\CInlineAction.php(49): MonstroController->actionIndex()
+#10 C:\xampp\htdocs\dm\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\dm\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\dm\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\dm\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\dm\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\dm\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\dm\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\dm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\dm\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\xampp\htdocs\dm\framework\web\CWebApplication.php(141): CWebApplication->runController('monstro')
+#20 C:\xampp\htdocs\dm\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\dm\web\index.php(11): CApplication->run()
+#22 {main}
+REQUEST_URI=/dm/web/index.php/monstro
+---
