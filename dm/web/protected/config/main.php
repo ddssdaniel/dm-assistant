@@ -15,7 +15,7 @@ return array(
         'application.models.post.*',        
         'application.components.*',
     ),
-    'defaultController' => 'post',
+    'defaultController' => 'site',
     // application components
     'components' => array(
         'user' => array(
@@ -25,8 +25,8 @@ return array(
         'db' => array(
             'connectionString' => 'mysql:host=localhost;dbname=dm',
             'emulatePrepare' => true,
-            'username' => 'dm-user',
-            'password' => 'LniC485UcB3YmMHm',
+            'username' => 'root',
+            'password' => '',
             'charset' => 'utf8',
         ),
         'errorHandler' => array(

@@ -25,6 +25,6 @@ $this->menu=array(
 		'nome_magia',
 		'ciclo',
 		'id_escola',
-		'conteudo',
+		array('value' => 'Helper::parse($data->conteudo)'),
 	),
 )); ?>

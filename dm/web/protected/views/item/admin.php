@@ -48,7 +48,7 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'id_item',
 		'nome_item',
 		'id_tipo_item',
-		'conteudo',
+		array('value' => 'Helper::parse($data->conteudo)'),
 		'raridade',
 		array(
 			'class'=>'CButtonColumn',

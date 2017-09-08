@@ -24,7 +24,7 @@ $this->menu=array(
 		'id_monstro',
 		'nome_monstro',
 		'id_tipo_monstro',
-		'conteudo',
+		array('value' => 'Helper::parse($data->conteudo)'),
 		'customizado',
 		'dificuldade',
 	),

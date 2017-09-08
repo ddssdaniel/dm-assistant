@@ -24,7 +24,7 @@ $this->menu=array(
 		'id_item',
 		'nome_item',
 		'id_tipo_item',
-		'conteudo',
+		array('value' => 'Helper::parse($data->conteudo)'),
 		'raridade',
 	),
 )); ?>

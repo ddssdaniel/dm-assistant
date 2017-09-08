@@ -23,6 +23,6 @@ $this->menu=array(
 	'attributes'=>array(
 		'id_raca',
 		'nome_raca',
-		'conteudo',
+		array('value' => 'Helper::parse($data->conteudo)'),
 	),
 )); ?>

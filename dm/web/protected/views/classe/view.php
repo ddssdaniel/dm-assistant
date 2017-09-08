@@ -23,6 +23,6 @@ $this->menu=array(
 	'attributes'=>array(
 		'id_classe',
 		'nome_classe',
-		'conteudo',
+		array('value' => 'Helper::parse($data->conteudo)'),
 	),
 )); ?>

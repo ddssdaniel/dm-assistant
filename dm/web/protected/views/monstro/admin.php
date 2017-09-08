@@ -48,7 +48,7 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'id_monstro',
 		'nome_monstro',
 		'id_tipo_monstro',
-		'conteudo',
+		array('value' => 'Helper::parse($data->conteudo)'),
 		'customizado',
 		'dificuldade',
 		array(
